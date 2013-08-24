@@ -29,8 +29,18 @@
     <![endif]-->
 
     <!-- Add your site or application content here -->
-    <div>
-      <div ng-include=" 'views/header.html' "></div>
+    <div class="container" style="max-width:700px">
+
+      <div class="masthead">
+
+        <ul class="nav nav-pills pull-right">
+          <li ><a href="../index.html">Leaderboard</a></li>
+          <li class="active"><a href="#">Search Bin</a></li>
+          <li><a href="../knowledge.html">Knowledge</a></li>
+        </ul>
+        <h1 class="muted">Recyle Fun!</h1>
+      </div>
+      <!-- <div ng-include=" 'views/header.html' "></div> -->
       <div ng-view=""></div>
     </div>
 
@@ -54,7 +64,7 @@
     <script src="libraries/stroll.js/js/stroll.js"></script>
     <!-- endbuild -->
 
-    <script src="http://www.onemap.sg/API/JS/?accessKEY=qo/s2TnSUmfLz+32CvLC4RMVkzEFYjxqyti1KhByvEacEdMWBpCuSSQ+IFRT84QjGPBCuz/cBom8PfSm3GjEsGc8PkdEEOEr&v=2.8&type=full"></script>
+    <script src="http://www.onemap.sg/API/JS?accessKEY=qo/s2TnSUmfLz+32CvLC4RMVkzEFYjxqyti1KhByvEacEdMWBpCuSSQ+IFRT84QjGPBCuz/cBom8PfSm3GjEsGc8PkdEEOEr&v=2.8&type=full"></script>
 
     <!-- build:js scripts/modules.js -->
     <script src="bower_components/angular-resource/angular-resource.js"></script>

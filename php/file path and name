@@ -1,0 +1,2 @@
+<?xml version="1.0"?>
+<kml xmlns="http://earth.google.com/kml/2.2"><Document/><item0><bla>blub</bla><foo>bar</foo><another_array><stack>overflow</stack></another_array></item0></kml>

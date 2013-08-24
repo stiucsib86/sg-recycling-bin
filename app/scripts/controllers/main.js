@@ -30,7 +30,7 @@ angular.module('sgRecyclingBinApp')
   };
 
   $scope.OneMapverlay = function() {
-    var kmlPath = 'data/binMapLocation.kml';
+    var kmlPath = 'data/binsMapLocationKML.php';
     OneMap.overlayKML(kmlPath);
   };
 
@@ -39,14 +39,15 @@ angular.module('sgRecyclingBinApp')
     Morris.Bar({
       element: 'bar-example',
       data: [
-        {y: 'Ang Mo Kio', a: 100, b: 50.1},
-        {y: 'Bedok', a: 75, b: 50.1},
-        {y: 'City', a: 50, b: 50.1},
-        {y: 'Clementi', a: 75, b: 50.1},
-        {y: 'Hougang', a: 50, b: 50.1},
-        {y: 'Tampines', a: 75, b: 50.1},
-        {y: 'Queenstown', a: 100, b: 50.1},
-        {y: 'Woodlands', a: 200, b: 50.1}
+        {y: 'Ang Mo Kio', a: 100, b: 197},
+        {y: 'Bedok', a: 75, b: 562},
+        {y: 'City', a: 50, b: 108},
+        {y: 'Clementi', a: 75, b: 301},
+        {y: 'Hougang', a: 50, b: 339},
+        {y: 'Jurong', a: 68, b: 559},
+        {y: 'Tampines', a: 75, b: 563},
+        {y: 'Queenstown', a: 100, b: 393},
+        {y: 'Woodlands', a: 200, b: 605}
       ],
       xkey: 'y',
       ykeys: ['a', 'b'],

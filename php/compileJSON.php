@@ -48,6 +48,7 @@ $WASTE_VENDORS = array(
 );
 
 require_once 'simple_html_dom.php';
+
 if (($handle = fopen("locationBin.csv", "r")) !== FALSE) {
   while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
     if (get_array_id($data[1], $data[2])) {
