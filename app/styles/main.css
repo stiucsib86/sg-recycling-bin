@@ -1,0 +1,13 @@
+body {
+  background: #fafafa;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333;
+}
+
+.map-container img {
+  max-width: none;
+}
+
+.main-content {
+  padding-top: 51px;
+}
